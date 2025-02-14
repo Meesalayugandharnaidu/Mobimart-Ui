@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hatran&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "myvar.css";
+@import "style1.css";
+
+body {
+  font-family: var(--font-one);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-one);
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  border: none !important;
+}
+/* nav*/
+.navbar {
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0px 3px 11px rgba(6, 8, 126, 0.3);
+}
+.navbar-brand img {
+  width: 28px;
+}
+.nav-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.nav-link:hover {
+  color: var(--color-one) !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* nav*/
+.section-title {
+  text-align: center;
+  font-size: 10px;
+}
+.section-title h4 {
+  display: inline-block;
+  position: relative;
+  color: var(--color-one);
+}
+.section-title h4::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: var(--color-two);
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  animation: linewidth 4s ease-in-out infinite;
+}
+@keyframes linewidth {
+  50% {
+    width: 100%;
+  }
+}
+/*product-details */
+#top-sale .product a {
+  overflow: hidden;
+}
+#top-sale .product img {
+  width: 170px;
+  height: 210px;
+  margin: auto;
+
+  transition: all 0.5s ease-in-out;
+}
+#top-sale .product img:hover {
+  transform: scale(1.1);
+}
+
+#filters button {
+  margin: 6px;
+  box-shadow: 1px 3px 4px rgba(6, 8, 126, 0.4);
+  transition: all 0.4s ease-in-out;
+}
+#filters button:hover,
+#filters button.active-filter {
+  background-color: var(--color-one);
+  color: #fff;
+}
+#special-price .product img {
+  width: 150px;
+  height: 200px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+#special-price .product img:hover {
+  transform: scale(1.1);
+}
+
+#special-price .grid-item {
+  box-shadow: 1px 2px 3px rgba(6, 8, 126, 0.4);
+}
+#new-mobiles .product img {
+  width: 150px;
+  height: 200px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+#new-mobiles .product img:hover {
+  transform: scale(1.1);
+}
+#new-mobiles .product a {
+  overflow: hidden;
+}
+#new-mobiles .item {
+  margin-top: 10px;
+}
+
+#ear-buds .product img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+}
+#ear-buds .product img:hover {
+  transform: scale(1.1);
+}
+
+#footer .cls a:hover {
+  background-color: rgb(24, 24, 156);
+  color: white;
+  width: 130px;
+}
+/* media quries*/
+@media (min-width: 992px) {
+  .nav-item {
+    border-bottom: none;
+  }
+}

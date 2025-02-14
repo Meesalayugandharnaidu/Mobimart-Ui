@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE SITE</title>
+
+    <!---font awsomecss-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---bootstarap css-->
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!---owl carsoul 2 css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---owl carsoul 3 css-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--custom  css-->
+    <link rel="stylesheet" href="my css/style.css">
+</head>
+
+<body>
+    <!--nav-->
+    <nav class="navbar  navbar-expand-lg py-2 px-2 px-sm-5 fixed-top ">
+        <a href="index.html" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+            <img src="assets/newmodels/moto-02.jpg" alt="logo.jpeg ">
+            <span class="text-uppercase fw-bold cls-one">Smart Mobiles</span>
+        </a>
+        <div class="order-lg-2">
+            <div class="cart-box d-inline-block">
+                <a href="cart.html" class="rounded-pill bg-dark py-2">
+                    <span class="px-2 text-white">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    </span>
+                    <span class="rounded-pill bg-light text-dark px-3 py-2">2</span>
+                </a>
+            </div>
+            <button class="btn ms-1  ">
+                <span class="text-danger"><i class="fa-solid fa-user"></i></span>
+                <span class="fw-bold text-danger">Login</span>
+            </button>
+            <button class="btn ms-1  ">
+                <span class="text-dark"><i class="fa-solid fa-circle-user"></i></span>
+                <span class="fw-bold text-dark">Sign up</span>
+            </button>
+
+        </div>
+        <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target=#navMenu>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+            <ul class="navbar-nav text-center mx-auto">
+                <li class="nav-item p-2">
+                    <a href="#" class="nav-link text-capitalize fz-18 text-dark">home</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a href="#top-sale" class="nav-link text-capitalize fz-18 text-dark">top sale</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a href="#special-price" class="nav-link text-capitalize fz-18 text-dark">special price</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a href="#new-mobiles" class="nav-link text-capitalize fz-18 text-dark">new mobiles</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a href="#ear-buds" class="nav-link text-capitalize fz-18 text-dark">ear buds</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a href="product.html" class="nav-link text-capitalize fz-18 text-dark">product</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+    <!--/nav-->
+
+    <!---header-->
+    <header id="slide-show" style="padding-top: 72px; ">
+        <div class="owl-carousel owl-theme">
+
+            <div class=" item">
+                <img src="assets/baneers/ban-1.jpeg" alt="ban-1">
+            </div>
+
+            <div class="item">
+                <img src="assets/baneers/ban-2.jpeg" alt="ban-2">
+            </div>
+
+            <div class="item">
+                <img src="assets/baneers/ban-1.jpeg" alt="ban-1">
+            </div>
+        </div>
+    </header>
+    <!---/header-->
+
+    <!--main-->
+    <div class="main">
+        <!--top-sale-->
+        <section id="top-sale">
+            <div class="container py-5 ">
+
+                <div class="section-title pt-5">
+                    <h4>Top Sale</h4>
+                </div>
+                <!--carousel-->
+                <div class=" owl-carousel owl-theme">
+
+                    <div class="item py-5 ">
+
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/apple-01.jpg" class="img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="product-details text-center p-4">
+
+                            <h6>Iphone 16pro</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+
+                            <div class="price-box pr-2">
+                                <small><s>$98000</s></small>
+                                <span class="ms-1">$15,0000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning  py-1">Add To Card</button>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/samsung-galaxy-m21-05.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Samsung M21</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$8600</s></small>
+                                <span class="ms-1">$14500</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product ">
+                            <a href="#">
+                                <img src="assets/newmodels/red-05.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Red Me Note10</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box ">
+                                <small><s>$11600</s></small>
+                                <span class="ms-1">$15500</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product ">
+                            <a href="#">
+                                <img src="assets/newmodels/rel-01.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Realme Narzo </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box ">
+                                <small><s>$8900</s></small>
+                                <span class="ms-1">$16300</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+                        </div>
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/one-03.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Oneplus Light5g</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$20000</s></small>
+                                <span class="ms-1">$26500</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--carousel-->
+            </div>
+        </section>
+        <!--/top-sale-->
+        <!--special-price-->
+        <section id="special-price">
+            <div class="container py-5 ">
+
+                <div class="section-title pt-5">
+                    <h4>Special Price</h4>
+                </div>
+                <!--buttons-->
+                <div class="button-group text-center py-4" id="filters">
+
+                    <button class="btn  active-filter" data-filter="*">All Items</button>
+                    <button class="btn" data-filter=".Ausus">Ausus</button>
+                    <button class="btn" data-filter=".Samsung">Samsung </button>
+                    <button class="btn" data-filter=".RealMe">Real Me</button>
+                    <button class="btn " data-filter=".RedMi">Red Mi</button>
+                    <button class="btn" data-filter=".Vivo">Vivo</button>
+                    <button class="btn " data-filter=".Oppo">Oppo</button>
+                    <button class="btn " data-filter=".Moto">Moto </button>
+                    <button class="btn " data-filter=".Iqoo">Iqoo </button>
+                    <button class="btn " data-filter=".OnePlus">One Plus</button>
+                    <button class="btn " data-filter=".Nothing">Nothing</button>
+                    <button class="btn" data-filter=".Apple">Apple</button>
+
+
+                </div>
+                <!--/buttons-->
+                <!--Grid-->
+                <div class="grid mx-auto">
+                    <div class="grid-item border m-1 text-center Nothing">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/nothing2 5g.png" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Nothing2 5g</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$12000</s></small>
+                                    <span class="ms-1">$32,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Nothing">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/noth.png" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Nothing Cnf</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$12000</s></small>
+                                    <span class="ms-1">$18,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Apple">
+                        <div class="item py-4 items" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/apple-pro-max.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>iphone 16promax</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$99000</s></small>
+                                    <span class="ms-1">$1,35,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="grid-item border m-1 text-center Apple">
+                        <div class="item py-4 items" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/apple-16.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>iphone 16</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$99000</s></small>
+                                    <span class="ms-1">$1,35,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="grid-item  border m-1 text-center Vivo">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/vivo-01.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Vivo Ultra</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$25000</s></small>
+                                    <span class="ms-1">$28,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Samsung">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/sm-01.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Samsaung galaxy</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$17000</s></small>
+                                    <span class="ms-1">$19000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-2 text-center Samsung">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/sm-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>samsung Galaxy</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$8600</s></small>
+                                    <span class="ms-1">$14500</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item  border m-1 text-center  Nokia">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/nokia-04.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Nokia Model</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$1800</s></small>
+                                    <span class="ms-1">$12000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item border m-1 text-center RedMi">
+                        <div class="item py-4 " style="width: 200px">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/red-03.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Red Me Note</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$17000</s></small>
+                                    <span class="ms-1">$19000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center RedMi">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/red-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Redme Note14pro</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$26500</s></small>
+                                    <span class="ms-1">$35000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Vivo">
+                        <div class="item py-4" style="width:200px">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/vivo-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Vivo Max</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$30000</s></small>
+                                    <span class="ms-1">$34,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center RealMe">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/rel-01.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Realme Narzo</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$10000</s></small>
+                                    <span class="ms-1">$12,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center RealMe">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/rel-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Realme Narzo</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$10000</s></small>
+                                    <span class="ms-1">$15,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Oppo">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/opp-01.png" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>OPPo Pro</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$20000</s></small>
+                                    <span class="ms-1">$25,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Oppo">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/opp-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>OPPo A3pro</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$30000</s></small>
+                                    <span class="ms-1">$34,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center  Ausus">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/asus.webp" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Ausu Old</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$9000</s></small>
+                                    <span class="ms-1">$12,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1  text-center Ausus">
+                        <div class="item py-4" style="width: 200px">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/asus-new.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Ausus New</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$12000</s></small>
+                                    <span class="ms-1">$18,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Apple">
+                        <div class="item py-4 items" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/apple-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>iphone S6</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$99000</s></small>
+                                    <span class="ms-1">$1,35,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="grid-item border m-1 text-center  OnePlus">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/one-05.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>One plus </h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$20000</s></small>
+                                    <span class="ms-1">$30,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Moto">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/moto-02.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Moto Ultra</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$15000</s></small>
+                                    <span class="ms-1">$18,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center RedMi">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/red-05.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Redme Note10s</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$9800</s></small>
+                                    <span class="ms-1">$16000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-2 text-center Iqoo">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="new-mobiles/iqoo z9s 5g.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Iqoo z9s 5g</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$19800</s></small>
+                                    <span class="ms-1">$26000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-1 text-center OnePlus">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product ">
+                                <a href="#">
+                                    <img src="assets/newmodels/one-1.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details p-4">
+                                <h6>One Plus 5g</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box ">
+                                    <small><s>$17600</s></small>
+                                    <span class="ms-1">$25000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning ">Add To Card</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="grid-item border m-1 text-center Moto">
+                        <div class="item py-4" style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/moto-01.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Moto Role</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$15000</s></small>
+                                    <span class="ms-1">$19,000</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="grid-item border m-2 text-center Samsung">
+                        <div class="item py-4 " style="width: 200px;">
+                            <div class="product">
+                                <a href="#">
+                                    <img src="assets/newmodels/samsung-galaxy-m21-05.jpg" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="product-details  p-4">
+                                <h6>Samsung-M21</h6>
+                                <div class="rating-stars text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="price-box pr-2">
+                                    <small><s>$8600</s></small>
+                                    <span class="ms-1">$14500</span>
+                                </div>
+                                <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <!--/Grid-->
+            </div>
+
+        </section>
+        <!--/special-price-->
+        <!--new mobiles-->
+        <section id="new-mobiles">
+            <div class="container py-5 ">
+
+                <div class="section-title pt-5">
+                    <h4>New Mobiles</h4>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/google-pixel.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details  text-center p-4 ">
+                            <h6>Google Pixel</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$24000</s></small>
+                                <span class="ms-1">$32000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/vivo v40 5g.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>Vivo v40 5g </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$24000</s></small>
+                                <span class="ms-1">$22000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/Infinix Note 40 Pro+ 5G.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>Infinix Note40 Pro+5g </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$23000</s></small>
+                                <span class="ms-1">$25000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/iqoo z9s 5g.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details  text-center p-4">
+                            <h6>Iqoo Z9s 5g </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$32000</s></small>
+                                <span class="ms-1">$26000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/honor 200 5g.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>Honor 200 5g </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$12000</s></small>
+                                <span class="ms-1">$16000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/vivo-01.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Vivo Pro</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$26000</s></small>
+                                <span class="ms-1">$30000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/nokia-03.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Nokia Old</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$600</s></small>
+                                <span class="ms-1">$1500</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/apple-16.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Iphone 16</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$96000</s></small>
+                                <span class="ms-1">$120,000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5">
+                        <div class="product">
+                            <a href="#">
+                                <img src="assets/newmodels/moto-01.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Moto Role</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$12000</s></small>
+                                <span class="ms-1">$15500</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/oppo reno 13 pro 5g.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Oppo Reno 13pro</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$26000</s></small>
+                                <span class="ms-1">$35000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5">
+                        <div class="product">
+                            <a href="#">
+                                <img src="new-mobiles/redmi-01.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details text-center p-4">
+                            <h6>Red Note11</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$18000</s></small>
+                                <span class="ms-1">$15000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning py-1">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--/new mobiles-->
+        <!--/new mobiles-->
+        <!--ear buds-->
+        <section id="ear-buds">
+            <div class="container py-5 ">
+
+                <div class="section-title pt-5">
+                    <h4>Ear Buds</h4>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/boAt Airdopes.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details  text-center p-4 ">
+                            <h6>Boat Airdopes</h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$17000</s></small>
+                                <span class="ms-1">$12000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/jbl wied.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>Jbl Wired </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$900</s></small>
+                                <span class="ms-1">$750</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/noise buds xero.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>Noise Buds Xerox </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$1500</s></small>
+                                <span class="ms-1">$1099</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/Boult Audio Z40.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details  text-center p-4">
+                            <h6>Boult Audio Z40 </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$1200</s></small>
+                                <span class="ms-1">$1600</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/OnePlus Buds Pro 2.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>OnePlus Buds Pro2 </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$8000</s></small>
+                                <span class="ms-1">$6000</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/boat wird.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>Boat Wired </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$800</s></small>
+                                <span class="ms-1">$400</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="item py-5 ">
+                        <div class="product">
+                            <a href="#">
+                                <img src="earbudes/boAt Rockerz 255 Pro+.webp" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="product-details   text-center p-4 ">
+                            <h6>boAt Rockerz 255 Pro </h6>
+                            <div class="rating-stars text-warning">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price-box pr-2">
+                                <small><s>$2000</s></small>
+                                <span class="ms-1">$1800</span>
+                            </div>
+                            <button class="btn btn-sm btn-warning ">Add To Card</button>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--/Ear buds-->
+    </div>
+    <!--/main-->
+    <!--footer-->
+    <footer id="footer" class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 py-3">
+
+                    <h3>Smart Mobiles</h3>
+                    <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Excepturi
+                        recusandae nesciunt
+                        cupiditate
+                        officia reiciendis deserunt, et delectus magnam eum quam?</p>
+                    <a href="https://www.whatsapp.com"> <span
+                            class="text-success font-2 rounded-pill bg-light px-2 py-1"><i
+                                class="fa-brands fa-whatsapp"></i></span></a>
+                    <a href="https://www.facbook.com"> <span
+                            class="text-primary ms-4 font-2  rounded-pill bg-light px-2 py-1"><i
+                                class="fa-brands fa-facebook"></i></span></a>
+                    <a href="https://www.instagram"> <span
+                            class="text-danger ms-4 font-2  rounded-pill bg-light px-2 py-1"><i
+                                class="fa-brands fa-instagram"></i></span></a>
+                    <a href="https://www.twitter.com"> <span
+                            class="text-info ms-4 font-2  rounded-pill bg-light px-2 py-1 "><i
+                                class="fa-brands fa-twitter"></i></span></a>
+
+
+
+                </div>
+                <div class="col-md-4 col-sm-6 py-3">
+                    <h4>New Phones</h4>
+                    <form action="">
+
+                        <div class="row g-0 py-2">
+                            <div class="col-6">
+                                <input type="email" name="email" placeholder="email" class="form-control">
+                            </div>
+
+                            <div class="col-6"><button class="btn btn btn-primary ms-1"
+                                    name="form-control">submit</button></div>
+                        </div>
+
+                    </form>
+
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 py-3">
+                    <h3>Infomation</h3>
+                    <div class="d-flex flex-column flex-wrap cls">
+                        <a href="#" class="text-white-50">About</a>
+                        <a href="#" class="text-white-50">Delivary Info</a>
+                        <a href="#" class="text-white-50">Privacy&Policy</a>
+                        <a href="#" class="text-white-50">Terms&Condtions</a>
+
+                    </div>
+                    <div class="d-flex">
+                        <img src="new-mobiles/icon-02.webp" alt="icon-02" style="width: 150px;margin: 2px;">
+                        <img src="new-mobiles/icon-01.webp" alt="icon-01" style="width: 150px;margin: 2px;">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--/footer-->
+
+
+
+
+
+    <!---jquery-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!---bootstrap js-->
+    <script src="bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <!--owl carusol js cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--istope js cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        ntegrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!---custom js-->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

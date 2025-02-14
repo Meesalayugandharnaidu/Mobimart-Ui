@@ -1,0 +1,8 @@
+:root {
+  --color-one: #550cb4;
+  --color-two: rgba(0, 255, 42, 0.8);
+
+  --font-one: "Roboto", serif;
+  --font-two: "Poppins" serif;
+  --fs-one: 20px;
+}
